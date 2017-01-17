@@ -12,6 +12,8 @@ namespace HousesExample
         private int rooms;
         private int size;
         private int doors;
+        private int avgHousePrice;
+
 
         public void Paint(string color)
         {
@@ -20,7 +22,7 @@ namespace HousesExample
 
         public string CurrentColor()
         {
-            return color;
+            return this.color;
         }
     }
 }
