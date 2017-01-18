@@ -27,6 +27,18 @@ namespace HousesExample
             Console.WriteLine("House 5:");
             house5.DisplayHouseInfo();
 
+            house2.Paint("Yellow");
+            Console.WriteLine("House 2:");
+            house2.DisplayHouseInfo();
+
+            house2.Name = "Denk House";
+            Console.WriteLine(house2.Name);
+            house2.Name = "Blue House";
+            Console.WriteLine(house2.Name);
+
+
+
+
             /*house1.Paint("Green");
             house1.NumberOfRooms(4);
             house1.SetSize(1000);
